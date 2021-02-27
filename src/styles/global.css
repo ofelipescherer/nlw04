@@ -17,6 +17,36 @@
     --blue-dark: #4953b8;
     --blue-twitter: #2aa9e0;
 }
+:root.dark {
+    --white: rgb(0, 0, 0);
+    --background: #c55959;
+    --gray-line: #113ab6;
+    --text: #a71717;
+    --text-highlight: #1ccc33;
+    --title: #bec4ce;
+    --red: #4e0914;
+    --green: #200f3a;
+    --blue: #5965e0;
+    --blue-dark: #ca2323;
+    --blue-twitter: #68d111;
+}
+/*
+@media(prefers-color-scheme: dark) {
+    :root {
+        --white: rgb(0, 0, 0);
+        --background: #c55959;
+        --gray-line: #113ab6;
+        --text: #a71717;
+        --text-highlight: #1ccc33;
+        --title: #bec4ce;
+        --red: #4e0914;
+        --green: #200f3a;
+        --blue: #5965e0;
+        --blue-dark: #ca2323;
+        --blue-twitter: #68d111;
+    }
+}
+*/
 
 @media(max-width: 1080px){
     html {

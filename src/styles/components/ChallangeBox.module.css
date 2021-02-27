@@ -20,6 +20,7 @@
 }
 
 .challangesNotActive strong{
+    margin: 1.5rem;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.4;

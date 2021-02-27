@@ -114,7 +114,7 @@ export function ChallangeProvider({
             levelUp,
             startNewChallenge,
             resetChallenge,
-            completeChallenge,
+            completeChallenge, 
             CloseLevelUpModal
             }}>
             {children}
