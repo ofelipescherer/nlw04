@@ -5,6 +5,11 @@ A cada **30 minutos** a aplicação lhe dá um exercício simples para previnir 
 
 A aplicação foi desenvolvida em estilo *RPG*  , em que a cada desafio(exercício) completado, é concedido ao usuário experiência ou *xp*. Caso a quantidade de xp seja suficiente, o usuário poderá subir de nível. Essa mecânica foi adicionada com o intuito de incentivar a prática desses exercícios simples, mas muito importantes.
 
+## História :blue_book:
+A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e  Next JS. O principal deles para mim foi de como usar ***Contexts*** que são ferramentas que facilitam a conversa entre componentes.
+
+Agradeço muito a todos da [Rockeseat](https://rocketseat.com.br), em especial [Diego Fernandes](https://twitter.com/dieegosf), por me proporcionar essa semana incrível com muito conteúdo sobre React e Next.
+
 ## Tecnologias utilizadas :computer:
 - [React JS](https://reactjs.org) 
 - [Next JS](https://nextjs.org)
@@ -23,11 +28,6 @@ Para iniciar o projeto utilize
 
 Pronto :smile: Agora é só abrir o navegador no endereço
 >http://localhost:3000/
-
-## História :blue_book:
-A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e  Next JS. O principal deles para mim foi de como usar ***Contexts*** que são ferramentas que facilitam a conversa entre componentes.
-
-Agradeço muito a todos da [Rockeseat](https://rocketseat.com.br), em especial [Diego Fernandes](https://twitter.com/dieegosf), por me proporcionar essa semana incrível com muito conteúdo sobre React e Next.
 
 ## Como usar :raising_hand:
 Na tela incial, será pedido seu nome no github
