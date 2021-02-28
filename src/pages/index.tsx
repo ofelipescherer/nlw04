@@ -19,7 +19,7 @@ interface HomeProps {
 }
 
 export default function Home(props : HomeProps) {
-  console.log(props)
+  //console.log(props)
   return (
     <ChallangeProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted}>
       <div className={styles.container}>
