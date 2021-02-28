@@ -5,7 +5,29 @@ A cada **30 minutos** a aplicação lhe dá um exercício simples para previnir 
 
 A aplicação foi desenvolvida em estilo *RPG*  , em que a cada desafio(exercício) completado, é concedido ao usuário experiência ou *xp*. Caso a quantidade de xp seja suficiente, o usuário poderá subir de nível. Essa mecânica foi adicionada com o intuito de incentivar a prática desses exercícios simples, mas muito importantes.
 
-##Como usar
+## Tecnologias utilizadas :computer:
+- [React JS](https://reactjs.org) 
+- [Next JS](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [js-cookie](https://www.npmjs.com/package/js-cookie)
+
+## Como rodar o projeto localmente
+Para testar a aplicação localmente você precisa clonar o repositório. Em seu git bash use
+>git clone https://github.com/ofelipescherer/nlw04.git  
+
+Em seguida precisamos instalar o pacote npm. Caso tenha o node instalado utilize
+>npm install
+
+Para iniciar o projeto utilize
+>npm run dev
+
+Pronto :smile: Agora é só abrir o navegador no endereço
+>http://localhost:3000/
+
+## História :blue_book:
+A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e  Next JS. O principal deles para mim foi de como usar ***Contexts*** que são ferramentas que facilitam a conversa entre componentes.
+
+## Como usar
 Na tela incial, será pedido seu nome no github
 ![Screenshot_1](https://user-images.githubusercontent.com/62115215/109425876-481a4280-79c9-11eb-96d0-c76415e3e69a.png)
 
@@ -42,26 +64,3 @@ Após ganhar experiência, você pode subir de level. Até que level você conse
 
 ![Screenshot_8](https://user-images.githubusercontent.com/62115215/109426572-2327ce80-79cd-11eb-9a0f-702970d511ce.png)
 > Level 2 alcançado 👏
-
-##Tecnologias utilizadas :fa-cogs:
-- [React JS](https://reactjs.org) 
-- [Next JS](https://nextjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [js-cookie](https://www.npmjs.com/package/js-cookie)
-
-##Como rodar o projeto localmente
-Para testar a aplicação localmente você precisa clonar o repositório. Em seu git bash use
->git clone https://github.com/ofelipescherer/nlw04.git  
-
-Em seguida precisamos instalar o pacote npm. Caso tenha o node instalado utilize
->npm install
-
-Para iniciar o projeto utilize
->npm run dev
-
-Pronto :smile: Agora é só abrir o navegador no endereço
->http://localhost:3000/
-
-## História :fa-book:
-A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e  Next JS. O principal deles para mim foi de como usar ***Contexts*** que são ferramentas que facilitam a conversa entre componentes.
-
