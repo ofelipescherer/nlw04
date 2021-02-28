@@ -1,8 +1,6 @@
-import { useState, useEffect, useContext } from 'react';
+import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContex';
 import styles from '../styles/components/Countdown.module.css'
-
-
 
 export function Countdown() {
     const { 
@@ -50,8 +48,6 @@ export function Countdown() {
                 }
             </>)
         }
-
-
     </div>
     );
 }

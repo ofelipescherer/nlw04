@@ -9,11 +9,13 @@ import ChallangeBox from "../components/ChallangeBox";
 import { CountdownProvider } from "../contexts/CountdownContex";
 import { ChallangeProvider } from '../contexts/ChallangesContext';
 import DarkModeCheck from '../components/DarkModeCheck';
+import { ProfileProvider } from '../contexts/ProfileContext';
 
 interface HomeProps {
   level : number,
   currentExperience: number,
-  challengesCompleted: number
+  challengesCompleted: number,
+  playerGithubName: String
 }
 
 export default function Home(props : HomeProps) {
@@ -22,13 +24,14 @@ export default function Home(props : HomeProps) {
     <ChallangeProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted}>
       <div className={styles.container}>
         <DarkModeCheck />
+        <ProfileProvider playerGithubName={props.playerGithubName}>
         <div className={styles.gamecontainer}>
           <Head>
             <title>Inicio | MoveIT</title>
           </Head>
-          
+        
           <ExperienceBar />
-
+          
           <CountdownProvider>
             <section>
               <div>
@@ -40,6 +43,7 @@ export default function Home(props : HomeProps) {
             </section>
           </CountdownProvider>
       </div>
+      </ ProfileProvider>
     </div>
   </ ChallangeProvider>
   )
@@ -48,13 +52,14 @@ export default function Home(props : HomeProps) {
 
 export const getServerSideProps : GetServerSideProps = async(ctx) => {
 
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
+  const { level, currentExperience, challengesCompleted, playerGithubName } = ctx.req.cookies;
 
   return {
     props: {
       level: Number(level),
       currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted)
+      challengesCompleted: Number(challengesCompleted),
+      playerGithubName: String(playerGithubName)
     }
   }
 }

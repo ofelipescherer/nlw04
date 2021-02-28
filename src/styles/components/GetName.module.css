@@ -1,0 +1,73 @@
+.overlay {
+    background: rgba(242, 243, 245, 0.8);
+    position: fixed;
+
+    /*Usar essas quatro propriedas significa que vai ocupar a tela inteira*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container {
+    background: var(--white);
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 60 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    position: relative;
+    background: var(--white);    
+}
+
+.containerInputButton {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.container header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title);
+    margin: 10px;
+    align-items: center;
+}
+
+.container input {
+    text-decoration: none;
+    font-size: 25px;
+    background: var(--blue-dark);
+    margin-bottom: 10px;
+    border: 0;
+
+    border-radius: 5px;
+    color: white
+}
+
+.container button {
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    border-radius: 5px;
+
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition: filter 0.2s;
+    background: var(--blue-dark);
+}
+
+.container button:hover{
+    filter: brightness(0.9);
+}
