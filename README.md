@@ -1,4 +1,4 @@
-# Move IT 🧘
+# Move IT :walking:
 > **Move IT consiste em uma aplicação que ajuda pessoas que ficam muito tempo no computador.**
 
 A cada **30 minutos** a aplicação lhe dá um exercício simples para previnir possiveis problemas de *articulações*, *coluna* ou *olhos*, que são muito comuns de serem desenvolvidos caso a pessoa fique muito tempo na frente do computador parado. 
@@ -11,7 +11,7 @@ A aplicação foi desenvolvida em estilo *RPG*  , em que a cada desafio(exercíc
 - [TypeScript](https://www.typescriptlang.org)
 - [js-cookie](https://www.npmjs.com/package/js-cookie)
 
-## Como rodar o projeto localmente
+## Como rodar o projeto localmente :open_file_folder:
 Para testar a aplicação localmente você precisa clonar o repositório. Em seu git bash use
 >git clone https://github.com/ofelipescherer/nlw04.git  
 
@@ -27,8 +27,9 @@ Pronto :smile: Agora é só abrir o navegador no endereço
 ## História :blue_book:
 A aplicação foi desenvolvida durante a semana **Next Level Week #04** ou **NLW #04**. Nela, [Diego Fernandes](https://twitter.com/dieegosf) ensinou conceitos de React e  Next JS. O principal deles para mim foi de como usar ***Contexts*** que são ferramentas que facilitam a conversa entre componentes.
 
-## Como usar
+## Como usar :raising_hand:
 Na tela incial, será pedido seu nome no github
+
 ![Screenshot_1](https://user-images.githubusercontent.com/62115215/109425876-481a4280-79c9-11eb-96d0-c76415e3e69a.png)
 
 Mas não se preocupe, não é necessário criar uma conta caso não tenha uma. Apenas coloque qualquer nome ou deixe em branco. Porém caso tenha, é interessante coloca-lá pois assim, o programa consegue colocar sua imagem de perfil.
